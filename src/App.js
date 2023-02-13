@@ -6,6 +6,7 @@ import News from './component/News';
 import TodoList from './component/TodoList';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import Accordion from './component/accordion/Accordion';
 import HBKUKeep from './component/hbkuKeep/HBKUKeep';
 import ContAPI from './component/contextAPI/ContextAPI';
@@ -16,6 +17,8 @@ import Layout from './component/Layout';
 import UserParams from './component/UserParams';
 import Search from './component/search/Search';
 import Error from './component/Error';
+import TodoNew from './component/todoNew/TodoNew';
+
 
 export const FirstName = createContext();
 export const LastName = createContext();
@@ -28,6 +31,7 @@ function App() {
         <Route path="/" element={<FormElements/>} />
         <Route path="/news" element={<News/>} />
         <Route path="/todolist" element={<TodoList/>} />
+        <Route path="/todolistnew" element={<TodoNew/>} />
         <Route path="/incdec" element={<IncrementDecrement/>} />
         <Route path="/accordion" element={<Accordion/>} />
         <Route path="/hbkukeep" element={<HBKUKeep/>} />

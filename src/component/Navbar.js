@@ -22,6 +22,9 @@ const Navbar = () => {
                         <NavLink className="nav-link" to="/todolist">Todo List</NavLink>
                     </li>
                     <li className="nav-item">
+                        <NavLink className="nav-link" to="/todolistnew">Todo List New</NavLink>
+                    </li>
+                    <li className="nav-item">
                         <NavLink className="nav-link" to="/incdec">Increment Decrement</NavLink>
                     </li>
                     <li className="nav-item">

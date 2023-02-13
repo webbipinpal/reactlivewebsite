@@ -1,0 +1,132 @@
+@import './assets/scss/variable.scss';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.idcontainer{
+  width: 400px;
+  display: block;
+  
+}
+.navbar-brand.navbar-brand{
+  color:$blueColor;
+}
+
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg{
+  h1{
+    font-size:80px;
+    color:$blueColor;
+    }
+ }
+ 
+  .contant_box_404{
+    h3{
+      font-size:40px;
+      color:$blueColor;
+      }
+  }
+			 
+	.link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+  }
+	.contant_box_404{ margin-top:-50px;}
+
+  .mainDiv{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+  }
+  .addItems{
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .addItems input{
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  border:none;
+  font-size: 18px;
+  }
+  .addItems input:focus,
+  .addItems input:focus-visible{
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+  .plutIcon{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    background-color: #dbdbdb;
+    padding: 7px 8px;
+    line-height: 0;
+    font-size: 18px;
+  }
+  .plutIcon i{
+    font-size: 34px;
+  }
+  .showItem{
+
+  }
+  .eachItem{
+    position: relative;
+    display: flex;
+    background-color: #dbdbdb;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+  .eachItem:hover{
+    background-color: #cbcbcb;
+    cursor: pointer;
+  }
+  .eachItem h3{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  .eachItem i{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    padding: 7px 8px;
+    line-height: 0;
+    bottom: 6px;
+  }
+  .eachItem i.edit{
+    right: 40px;
+  }
+  .removeBtn{
+
+  }

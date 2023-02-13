@@ -11,7 +11,6 @@ const TodoList = () => {
         setInList(inVal);
     }
     const addListHandler = () => {
-        console.log('hi')
         setItems((olditems) => {
             return(
                 [...olditems, inList]
